@@ -26,7 +26,7 @@ a:visited {
     color: gray;
     font-weight: bold;
 
-    position: fixed;
+    position: static;
     right: 230px;
     display: inline;
     size: 20px;
@@ -50,12 +50,13 @@ a:visited {
     position: static;
 }
 .logo {
-    position: fixed;
+    position: static;
     left: 230px;
     padding: 20px;
     padding-top: 48px;
 }
 .menu_bar {
+	box-sizing: border-box;
     position: static;
     display: inline-block;
     width: 1300px;
